@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
   res.send('id: ' + req.query.id);
 })
 
-app.listen(3000);
+app.listen(8080);
 
 /**
 http.createServer(function (req, res) {
@@ -22,4 +22,4 @@ http.createServer(function (req, res) {
 }).listen(8888, '127.0.0.1');
 */
 
-console.log('access: http://localhost:3000');
+console.log('access: http://localhost:8080');
